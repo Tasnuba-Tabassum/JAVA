@@ -19,7 +19,8 @@ public class groceryBazar {
         for(int i=0; i<products; i++)
         {
             System.out.print("Name of product " + (i+1) + ": ");
-            prdName[i] = input.next();
+            input.nextLine();
+            prdName[i] = input.nextLine();
             System.out.print("Price of product " + (i+1) + ": ");
             price[i] = input.nextDouble();
             total_price += price[i];
