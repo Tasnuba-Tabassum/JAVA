@@ -43,7 +43,7 @@ public class Library_Management_System {
         System.out.println(record1.getTitle());
         System.out.println(record1.getAuthor());
         System.out.println(record1.isCheckedOut());
-        record1.checkOut();
+        record1.checkOut(); 
         record1.returnBook();
     }
 }
